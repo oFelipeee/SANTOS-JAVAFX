@@ -31,5 +31,10 @@
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Desktop/Projetos%20Scene%20builder/SANTOS.fxml</locationURI>
 		</link>
+		<link>
+			<name>src/views/dashboard.fxml</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/Projetos%20Scene%20builder/dashboard.fxml</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>
