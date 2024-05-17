@@ -22,9 +22,9 @@
                <top>
                   <AnchorPane prefHeight="402.0" prefWidth="519.0" BorderPane.alignment="CENTER">
                      <children>
-                        <AnchorPane layoutX="138.0" layoutY="1.0" prefHeight="400.0" prefWidth="203.0" style="-fx-background-color: black;">
+                        <AnchorPane layoutX="141.0" layoutY="1.0" prefHeight="400.0" prefWidth="203.0" style="-fx-background-color: black;">
                            <children>
-                              <Text fill="WHITE" fontSmoothingType="LCD" layoutX="27.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email:">
+                              <Text fill="WHITE" fontSmoothingType="LCD" layoutX="27.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Horário:">
                                  <font>
                                     <Font name="Dubai Bold" size="13.0" />
                                  </font>
@@ -38,12 +38,7 @@
                                     </DropShadow>
                                  </effect>
                               </TextField>
-                              <Text fill="WHITE" fontSmoothingType="LCD" layoutX="50.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ja tem uma conta?">
-                                 <font>
-                                    <Font name="Dubai Bold" size="13.0" />
-                                 </font>
-                              </Text>
-                              <Text fill="#ffee00" fontSmoothingType="LCD" layoutX="84.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Entrar">
+                              <Text fill="#ffee00" fontSmoothingType="LCD" layoutX="79.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Voltar">
                                  <font>
                                     <Font name="Dubai Bold" size="13.0" />
                                  </font>
@@ -53,7 +48,27 @@
                                     <Font name="Impact" size="24.0" />
                                  </font>
                               </Text>
-                              <Button layoutX="76.0" layoutY="175.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Login" />
+                              <Button fx:id="botaoReserva" layoutX="71.0" layoutY="226.0" mnemonicParsing="false" onAction="#reservar" style="-fx-background-color: white;" text="Resevar" />
+                              <Text fill="WHITE" fontSmoothingType="LCD" layoutX="27.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Horaio">
+                                 <font>
+                                    <Font name="Dubai Bold" size="13.0" />
+                                 </font>
+                              </Text>
+                              <TextField layoutX="25.0" layoutY="188.0">
+                                 <effect>
+                                    <DropShadow>
+                                       <color>
+                                          <Color red="1.0" green="0.9142857193946838" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </TextField>
+                              <Text fill="WHITE" fontSmoothingType="LCD" layoutX="27.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dia:">
+                                 <font>
+                                    <Font name="Dubai Bold" size="13.0" />
+                                 </font>
+                              </Text>
+                              <Button fx:id="botaoLogin" layoutX="78.0" layoutY="263.0" mnemonicParsing="false" onAction="#login" style="-fx-background-color: white;" text="Clear" />
                            </children>
                         </AnchorPane>
                         <AnchorPane layoutY="1.0" prefHeight="400.0" prefWidth="139.0" style="-fx-background-color: gold;">
