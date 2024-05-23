@@ -14,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SantosController">
    <children>
       <AnchorPane prefHeight="200.0" prefWidth="200.0">
          <children>
@@ -29,7 +29,7 @@
                                     <Font name="Dubai Bold" size="13.0" />
                                  </font>
                               </Text>
-                              <TextField layoutX="27.0" layoutY="115.0">
+                              <TextField fx:id="horario" layoutX="27.0" layoutY="115.0">
                                  <effect>
                                     <DropShadow>
                                        <color>
@@ -54,7 +54,7 @@
                                     <Font name="Dubai Bold" size="13.0" />
                                  </font>
                               </Text>
-                              <TextField layoutX="25.0" layoutY="188.0">
+                              <TextField fx:id="dia" layoutX="25.0" layoutY="188.0">
                                  <effect>
                                     <DropShadow>
                                        <color>
@@ -90,10 +90,10 @@
                         </AnchorPane>
                         <AnchorPane layoutX="361.0" layoutY="77.0" prefHeight="160.0" prefWidth="158.0">
                            <children>
-                              <TableView layoutX="-20.0" layoutY="-76.0" prefHeight="400.0" prefWidth="259.0">
+                              <TableView fx:id="tableView" layoutX="-20.0" layoutY="-76.0" prefHeight="400.0" prefWidth="259.0">
                                  <columns>
-                                    <TableColumn prefWidth="75.0" text="C1" />
-                                    <TableColumn prefWidth="75.0" text="C2" />
+                                    <TableColumn fx:id="horario" prefWidth="75.0" text="Horário" />
+                                    <TableColumn fx:id="dia" prefWidth="75.0" text="Dia" />
                                  </columns>
                               </TableView>
                            </children>

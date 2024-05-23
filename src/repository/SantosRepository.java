@@ -9,6 +9,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
+import javafx.scene.control.TextField;
+
 public class SantosRepository {
 		private List<SantosRepository> santao;
 		private File database;
@@ -73,6 +75,12 @@ public class SantosRepository {
 
 
 
+		public void setNome(String string) {
+			// TODO Auto-generated method stub
+			
+		}
+
+
 		private static void add(SantosRepository santao2) {
 			// TODO Auto-generated method stub
 			
@@ -80,21 +88,21 @@ public class SantosRepository {
 
 
 
-		private void setFimSantos(String string) {
+		public void setFimSantos(String string) {
 			// TODO Auto-generated method stub
 			
 		}
 
 
 
-		private void setInicioSantos(String string) {
+		public void setInicioSantos(String string) {
 			// TODO Auto-generated method stub
 			
 		}
 
 
 
-		private void setNome(String string) {
+		public void setNome(TextField nomeSantos) {
 			// TODO Auto-generated method stub
 			
 		}
@@ -128,7 +136,7 @@ public class SantosRepository {
 		}
 
 
-		private void setId(int i) {
+		public static void setId(int i) {
 			// TODO Auto-generated method stub
 			
 		}
@@ -177,7 +185,14 @@ public class SantosRepository {
 			}
 			return maxId + 1;
 		}
-		
+
+
+		public void addSantosRepository(SantosRepository ingresso) {
+			// TODO Auto-generated method stub
+			
+		}
+
+
 		
 		
 		
