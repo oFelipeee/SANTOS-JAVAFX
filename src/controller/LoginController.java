@@ -9,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
@@ -22,6 +23,9 @@ public class LoginController {
 	
 	public Stage primaryStage;
 	
+	
+	
+
 	public void entrar() {
 		System.out.println("Tentaiva de entrar!");
 		

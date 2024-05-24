@@ -41,7 +41,7 @@ public class SantosController {
 	private SantosRepository santos;
 	
 	public void initialize( ) {
-		cDia.setCellValueFactory(new PropertyValueFactory<>("nome"));                  
+		cDia.setCellValueFactory(new PropertyValueFactory<>("dia"));                  
 		cHorario.setCellValueFactory(new PropertyValueFactory<>("horario"));
 		
 		tableView = FXCollections.observableArrayList();
